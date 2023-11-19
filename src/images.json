@@ -1,0 +1,18 @@
+
+[
+    {
+      "id" : 0,
+      "name": "dungFloorTileset",
+      "path": "./gfx/mapLook/dungFloorsTileset.png"
+    },
+    {
+      "id" : 1,
+      "name": "dungWallsTileset",
+      "path": "./gfx/mapLook/dungWallsTileset.png"
+    },
+    {
+      "id" : 2,
+      "name": "arrows3232",
+      "path": "./gfx/mapLook/arrows3232.png"
+    }
+]
