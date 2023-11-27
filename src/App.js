@@ -4,7 +4,7 @@ import GfxEngine from './gfx-engine.js';
 import Level from './level.js';
 import Party from './party.js';
 
-
+//github test
 
 function App( {level, party, look} ) {
   const images = loadAll(require.context('../assets/gfx/mapLook/', false, /\.(png|jpe?g|svg)$/));
