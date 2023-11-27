@@ -6,6 +6,8 @@ import Party from './party.js';
 
 //github test
 
+// tomorrow i will do some serious coding :D
+
 function App( {level, party, look} ) {
   const images = loadAll(require.context('../assets/gfx/mapLook/', false, /\.(png|jpe?g|svg)$/));
   party = new Party(2,2,'E');
