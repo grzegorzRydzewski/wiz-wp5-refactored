@@ -1,28 +1,30 @@
 import React from 'react';
-import '../index.css';
-import {imageCollection} from '../assets.js';
+//import '../index.css';
+//import {imageCollection} from '../assets.js';
 
-export default class Tile extends React.Component {
-  x; y;
+export default function Tile (x, y, level) { 
+  //x; y;
   miniCanvas;ctx;
   level;faccess;
   tw;th;
   tilesetsTable;
   //unemptyTile; //niepusta
-  constructor(props) {
+  /*constructor(props) {
     super(props);
     this.x = props.x;
     this.y = props.y;
     this.level =  props.currentLevel;
-    this.faccess = props.currentLevel.getJSON();
-
-    this.tw = this.faccess.tilewidth;
-    this.th = this.faccess.tileheight;
-    this.tilesetsTable = [];
-    for (let i = 0; i < this.faccess.tilesets.length;i++) {
-      this.tilesetsTable[i] = require('./' + this.faccess.tilesets[i].source);
+    */
+    faccess = level.getJSON();
+    
+    tw = faccess.tilewidth;
+    th = faccess.tileheight;
+    tilesetsTable = [];
+    for (let i = 0; i < faccess.tilesets.length;i++) {
+      tilesetsTable[i] = require('./' + this.faccess.tilesets[i].source);
     }
   }
+  /*
   componentDidMount() {
     if (this.miniCanvas === undefined) { //robi sie to raz
       this.miniCanvas = this.refs.miniCanvas;
