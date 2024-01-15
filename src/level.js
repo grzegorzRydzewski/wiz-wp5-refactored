@@ -8,9 +8,9 @@ export default class Level {
     return this.levelJSON;
   }
 
-  getLevel(name) {
-    return require('./maps/' + name + 'map.json');
-  }
+ // getLevel(name) {
+  //  return require('./maps/' + name + 'map.json');
+  //}
 
   getCurrentLevel() {
     return this.levelJSON;

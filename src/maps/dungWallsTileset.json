@@ -1,19 +1,11 @@
 { "columns":10,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"",
-         "target":"."
-        }
-    },
  "grid":
     {
      "height":5,
      "orientation":"orthogonal",
      "width":10
     },
- "image":"dungWallsTileset.png",
+ "image":"assets\/gfx\/map-look\/dungWallsTileset.png",
  "imageheight":160,
  "imagewidth":320,
  "margin":0,
@@ -21,7 +13,7 @@
  "objectalignment":"topleft",
  "spacing":0,
  "tilecount":50,
- "tiledversion":"1.4.2",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tiles":[
         {
@@ -31,23 +23,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":1,
          "properties":[
@@ -55,23 +47,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":2,
          "properties":[
@@ -79,23 +71,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":3,
          "properties":[
@@ -103,23 +95,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":10,
          "properties":[
@@ -127,23 +119,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":11,
          "properties":[
@@ -151,23 +143,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":12,
          "properties":[
@@ -175,23 +167,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":13,
          "properties":[
@@ -199,23 +191,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":20,
          "properties":[
@@ -223,23 +215,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":21,
          "properties":[
@@ -247,23 +239,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":22,
          "properties":[
@@ -271,23 +263,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":23,
          "properties":[
@@ -295,23 +287,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":30,
          "properties":[
@@ -319,23 +311,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":31,
          "properties":[
@@ -343,23 +335,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":false
                 }]
-        },
+        }, 
         {
          "id":32,
          "properties":[
@@ -367,23 +359,23 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":true
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
                  "value":true
                 }]
-        },
+        }, 
         {
          "id":33,
          "properties":[
@@ -391,17 +383,17 @@
                  "name":"canGoEast",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoNorth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoSouth",
                  "type":"bool",
                  "value":false
-                },
+                }, 
                 {
                  "name":"canGoWest",
                  "type":"bool",
@@ -410,5 +402,5 @@
         }],
  "tilewidth":32,
  "type":"tileset",
- "version":1.4
+ "version":"1.10"
 }
